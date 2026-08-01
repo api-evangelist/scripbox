@@ -1,7 +1,28 @@
 aid: scripbox
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scripbox.png
 name: Scripbox
-description: 'Scripbox is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Scripbox is an Indian direct-to-consumer wealth management and mutual fund
+  investment platform operated by Scripbox Wealth Managers Private Limited. It
+  helps families pursue financial freedom through personalized mutual fund
+  recommendations shaped by expert advisors and data-backed algorithms, offering
+  both regular (commission-based, zero monthly fee) and direct (advisory-fee)
+  plans. The platform bundles portfolio construction and monitoring, financial
+  planning, goal-based investing, tax-saving tools such as its Smart Withdraw
+  algorithm, and multi-channel support. As of this enrichment pass, Scripbox
+  operates purely as a consumer application and publishes no public developer
+  API, developer portal, SDKs, or machine-readable API specifications.
 url: https://raw.githubusercontent.com/api-evangelist/scripbox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Financial Services
+- Wealth Management
+- Mutual Funds
+- Investing
+- Fintech
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.scripbox.com
+  url: https://www.scripbox.com
+- type: Blog
+  url: https://scripbox.com/blog/
+- type: Pricing
+  url: https://scripbox.com/pricing
+- type: TermsOfService
+  url: https://scripbox.com/pages/terms-of-use
+- type: PrivacyPolicy
+  url: https://scripbox.com/pages/privacy-policy
+- type: Login
+  url: https://scripbox.com/user/login
+- type: Support
+  url: https://scripbox.com/contact-us
+- type: DomainSecurity
+  url: security/scripbox-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
